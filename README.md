@@ -16,10 +16,10 @@
 
        ## tsc --init
 
-# /_ Specify the root folder within your source files. It will include main TypeScript file _/
+# Specify the root folder within your source files. It will include main TypeScript file
 
       ## "rootDir": "./folderName/src/"
 
-# /_ Specify an output folder for all emitted files. It will include javaScript file of TypeScript file _/
+# Specify an output folder for all emitted files. It will include javaScript file of TypeScript file
 
       ## "outDir": "./folderName/dist/"
