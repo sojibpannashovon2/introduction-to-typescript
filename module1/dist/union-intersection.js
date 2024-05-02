@@ -12,4 +12,5 @@
         designation1: "Frontend Developer",
         designation2: "Backend Developer", // Remove this line
     };
+    console.log(developer);
 }
