@@ -1,8 +1,9 @@
+"use strict";
 {
     //?Spread Operator
-    var friend1 = ["Asikur", "Anam", "Arifur"];
-    var friend2 = [];
-    friend2.push.apply(friend2, friend1);
+    const friend1 = ["Asikur", "Anam", "Arifur"];
+    const friend2 = [];
+    friend2.push(...friend1);
     console.log(friend2);
     //?Distructuring
     //?Rest Operator
