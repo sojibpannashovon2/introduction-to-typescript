@@ -75,3 +75,7 @@ https://scontent.fzyl2-2.fna.fbcdn.net/v/t39.30808-6/441051145_830566608919521_4
 ## Install npm file for the first time
 
     npm i -g ts-node-dev
+
+## What is type assertion can you explain it to me?
+
+Type assertion allows you to set the type of a value and tell the compiler not to infer it. This is when you, as a programmer, might have a better understanding of the type of a variable than what TypeScript can infer on its own. Such a situation can occur when you might be porting over code from JavaScript and you may know a more accurate type of the variable than what is currently assigned. It is similar to type casting in other languages like C# and Java. However, unlike C# and Java, there is no runtime effect of type assertion in TypeScript. It is merely a way to let the TypeScript compiler know the type of a variable.
